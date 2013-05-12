@@ -28,7 +28,7 @@ First Message
 </div>
 <div>
 <p>
-Hello World! noob
+Hello World!
 </p>
 </div>
 
