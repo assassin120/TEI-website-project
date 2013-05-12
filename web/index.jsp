@@ -1,3 +1,6 @@
+<!--
+License: GNU Public License v3 (http://www.gnu.org/licenses/gpl.html)
+-->
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
@@ -31,6 +34,14 @@ First Message
 Hello World!
 </p>
 </div>
+<footer>
+©
+<address>
+Developed at : <a href="https://github.com/Etheras/TEI-website-project" rel="author">GitHub</a><br>
+From : Students of <a href="http://www.cs.teiath.gr/">Τμήμα Πληροφορικής Τ.Ε.Ι. Αθήνας</a>
+</address>
+</footer
+
 
 </body>
 
