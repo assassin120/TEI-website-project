@@ -1,28 +1,52 @@
 body
 {
-   color: Blue;
-   text-align: center;
+   color: White;
+   text-shadow:1px 1px 2px Blue;
    text-transform:capitalize;
+   text-align: center;
    font-family:"Times New Roman", Times, serif;
    background-color: Black;
 }
-
-#container
+footer
 {
+   bottom: 0;
+}
+
+header
+{
+   top: 0;
+}
+
+.Left
+{
+   position: absolute;
+   left: 0px;
+}
+
+.Center
+{
+   
+   width: 50%;
+}
+
+.Right
+{
+   position: absolute;
+   right: 0px;
+}
+
+header,footer
+{
+   background-color: Navy;
+   height: 20px;
+   position: fixed;
    width: 100%;
+   left: 0px;
+   right: 0px;
 }
 
 a
 {
+   color: White;
    text-decoration:none;
-}
-
-h1
-{
-   text-shadow: 2px 2px 2px Red;
-}
-
-p
-{
-   text-shadow:1px 1px 2px Red;
 }
