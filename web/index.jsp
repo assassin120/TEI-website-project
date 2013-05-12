@@ -17,31 +17,19 @@ License: GNU Public License v3 (http://www.gnu.org/licenses/gpl.html)
 
 <body>
 
-<div id="Container">
 <header>
-<div  class="Menu">
-<span><a href="index.jsp">Home</a></span>
-<span><a href="thinktank.jsp" title="A place to present your ideas">Think Tank</a></span>
-<span><a href="about.jsp">About</a></span>
+<span class="Left"><a href="index.jsp">Home</a></span>
+<span class="Center"><a href="thinktank.jsp" title="A place to present your ideas">Think Tank</a></span>
+<span class="Right"><a href="about.jsp">About</a></span>
 </header>
-<div  class="Header">
-<h1>
-First Message
-</h1>
-</div>
-<div>
-<p>
-Hello World!
-</p>
-</div>
-<footer>
-©
-<address>
-Developed at : <a href="https://github.com/Etheras/TEI-website-project" rel="author">GitHub</a><br>
-From : Students of <a href="http://www.cs.teiath.gr/">Τμήμα Πληροφορικής Τ.Ε.Ι. Αθήνας</a>
-</address>
-</footer
 
+
+
+<footer>
+<span class="Left">© under <a href="http://www.gnu.org/licenses/gpl.html">GPLv3</a></span>
+<span class="Center">Developed @ : <a href="https://github.com/Etheras/TEI-website-project" rel="author">GitHub</a></span>
+<span class="Right">From students of <a href="http://www.cs.teiath.gr/">Τμήμα Πληροφορικής Τ.Ε.Ι. Αθήνας</a></span>
+</footer>
 
 </body>
 
