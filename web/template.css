@@ -1,0 +1,11 @@
+body
+{
+   background-color: Black;
+}
+p,h1
+{
+   color: Blue;
+   text-transform:capitalize;
+   text-align:center;
+   text-decoration:none;
+}
