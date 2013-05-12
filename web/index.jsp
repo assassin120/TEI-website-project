@@ -17,9 +17,9 @@
 <div id="Container">
 <header>
 <div  class="Menu">
-<span><a href="index.jsp/">Home</a></span>
-<span><a href="thinktank.jsp/" title="A place to present your ideas">Think Tank</a></span>
-<span><a href="about.jsp/">About</a></span>
+<span><a href="index.jsp">Home</a></span>
+<span><a href="thinktank.jsp" title="A place to present your ideas">Think Tank</a></span>
+<span><a href="about.jsp">About</a></span>
 </header>
 <div  class="Header">
 <h1>
