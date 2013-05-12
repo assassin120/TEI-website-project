@@ -1,16 +1,23 @@
 body
 {
+   color: Blue;
+   text-align: center;
+   text-transform:capitalize;
+   font-family:"Times New Roman", Times, serif;
+   text-decoration:none;
    background-color: Black;
 }
-p,h1
+
+#container
 {
-   color: Blue;
-   font-family:"Times New Roman", Times, serif;
-   text-shadow: 2px 2px 2px Red;
-   text-transform:capitalize;
-   text-align:center;
-   text-decoration:none;
+   width: 100%;
 }
+
+h1
+{
+   text-shadow: 2px 2px 2px Red;
+}
+
 p
 {
    text-shadow:1px 1px 2px Red;
