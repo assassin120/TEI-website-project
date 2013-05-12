@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font: bold 20px Tahoma;
+}
+
+header, section, footer, aside, nav, article{
+	display: block;
+}
+
+body{
+	text-align:center;
+	background-image:url('black.jpg');
+}
+
+#big_wrapper{
+	width:1000px;
+	margin:20px auto auto;  /*thelw kenw 20px apo panw kai kato kai gia dexia kai
+	aristera to afinw auto*/
+	text-align:left; /*to keimeno na einai aristera mesa sto big_wrAPPER*/
+	background:black;
+	
+
+}
+
+#top_header{
+	background:#E00B2F;
+	border:20px;
+	padding:20px /*einai gia mesa sto box kai to margin gia exw*/
+}
+
+#top_menu{
+	border-top:3px solid black;
+	background:#E00B2F;
+	color:white;
+}
+
+#top_menu li{
+	display:inline-block; /*gia na mhn einai oi selides toy menu h
+	mia katw apo thn allh to default einai block gia afto to bazei to
+	ena katw apo to allo*/
+	list-style:none;
+	padding:5px;
+	font:bold 14px Tahoma;
+	}
+	
+#main_section{
+	float:left;
+	width:660px;
+	margin:30px;  /* 660+120(30+30+30+30 panw katw dexia aristera)=780px ara exw alla 280 akoma */
+	background:black;
+}
+
+#side_news{
+	float:left;
+	width:220px;
+	margin:20px 0px; /* 280 mas exoun minei ara
+	20+20=40 gia panw kai katw +220=280*/
+	padding:30px;
+	background:#66CCCC;
+}
+
+#the_footer{
+	clear:both;
+	text-align:center;
+	padding:20px;
+	border-top:1px solid black;
+	background:black;
+	color:white;
+}
+
+article{
+background:#E00B2F;
+color:black;
+padding:20px;
+font:bold 12px Tahoma;
+text-align:left;
+margin:5px;
+border:3px solid black;
+}
+
+article footer{
+text-align:right;
+}
+
+article header{
+text-align:left;
+font:bold 17px black;
+padding:15px 0px;}
+
+
+
