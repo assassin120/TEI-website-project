@@ -1,8 +1,8 @@
+<!DOCTYPE html>
 <!--
 License: GNU Public License v3 (http://www.gnu.org/licenses/gpl.html)
 -->
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" manifest="TEIProject.appcache">
 
 <head>
 
@@ -18,17 +18,27 @@ License: GNU Public License v3 (http://www.gnu.org/licenses/gpl.html)
 <body>
 
 <header>
+<nav>
 <span class="Left"><a href="index.jsp">Home</a></span>
-<span class="Center"><a href="thinktank.jsp" title="A place to present your ideas">Think Tank</a></span>
+<span class="Center">
+	<a href="thinktank.jsp" title="A place to present your ideas">Thinktank</a>
+	<a href="connect.jsp" title="Ilias, Connecting People">Connect</a>
+	<a href="clock.jsp" title="Tick Tock, Tick Tock">Clock</a>
+</span>
 <span class="Right"><a href="about.jsp">About</a></span>
+</nav>
 </header>
 
+<div id="container">
 
+</div>
 
 <footer>
+<nav>
 <span class="Left">© under <a href="http://www.gnu.org/licenses/gpl.html">GPLv3</a></span>
 <span class="Center">Developed @ : <a href="https://github.com/Etheras/TEI-website-project" rel="author">GitHub</a></span>
 <span class="Right">From students of <a href="http://www.cs.teiath.gr/">Τμήμα Πληροφορικής Τ.Ε.Ι. Αθήνας</a></span>
+</nav>
 </footer>
 
 </body>

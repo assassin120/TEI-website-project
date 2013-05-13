@@ -1,0 +1,11 @@
+#Things to be cached
+CACHE MANIFEST
+/Template.css
+
+#Things to NOT be cached
+NETWORK:
+login.asp
+
+#Result if uncached connection
+FALLBACK:
+/html/ /offline.html

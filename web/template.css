@@ -4,7 +4,7 @@ body
    text-shadow:1px 1px 2px Blue;
    text-transform:capitalize;
    text-align: center;
-   font-family:"Times New Roman", Times, serif;
+   font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
    background-color: Black;
 }
 footer
@@ -49,4 +49,9 @@ a
 {
    color: White;
    text-decoration:none;
+   transition:all 1s ease-out;
+}
+a:hover
+{
+   color: red;
 }
