@@ -37,17 +37,25 @@ header nav
 {
    position: absolute;
    width: 100%;
-   padding-bottom: 0.9em;
+   margin: 2em 0;
 }
 
 article
 {
-   background-color: transparent;
+   background-color: blue;
+   margin: 1% 0;
+}
+
+h1,p
+{
+   padding: 0;
+   margin: 0;
 }
 
 article header
 {
-;
+   padding: 0;
+   margin: 0;
 }
 
 article content

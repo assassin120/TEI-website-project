@@ -20,11 +20,9 @@ License: GNU Public License v3 (http://www.gnu.org/licenses/gpl.html)
 <header>
 <nav>
 <span class="Left"><a href="index.jsp">Home</a></span>
-<span class="Center">
-	<a href="thinktank.jsp" title="A place to present your ideas">Thinktank</a>
-	<a href="connect.jsp" title="Ilias, Connecting People">Connect</a>
-	<a href="clock.jsp" title="Tick Tock, Tick Tock">Clock</a>
-</span>
+<span class="Center"><a href="thinktank.jsp" title="A place to present your ideas">Thinktank</a></span>
+<span class="Center"><a href="connect.jsp" title="Ilias, Connecting People">Connect</a></span>
+<span class="Center"><a href="clock.jsp" title="Tick Tock, Tick Tock">Clock</a></span>
 <span class="Right"><a href="about.jsp">About</a></span>
 </nav>
 </header>
