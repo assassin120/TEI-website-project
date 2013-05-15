@@ -2,7 +2,7 @@
 <!--
 License: GNU Public License v3 (http://www.gnu.org/licenses/gpl.html)
 -->
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" manifest="TEIProject.appcache">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" <!--manifest="TEIProject.appcache"-->>
 
 <head>
 
@@ -31,32 +31,7 @@ License: GNU Public License v3 (http://www.gnu.org/licenses/gpl.html)
 <article>
 <header><h1>Hello World!</h1></header>
 <content><p>This is the first article</p></content>
-<footer>By Etheras FireFox</footer>
-</article>
-<article>
-<header><h1>Blog post #2</h1></header>
-<content><p>updates on something important</p></content>
-<footer>By Etheras FireFox</footer>
-</article>
-<article>
-<header><h1>Running out of examples</h1></header>
-<content><p>does it show?</p></content>
-<footer>By Etheras FireFox</footer>
-</article>
-<article>
-<header><h1>Positioning examples</h1></header>
-<content><p>are not quite fun</p></content>
-<footer>By Etheras FireFox</footer>
-</article>
-<article>
-<header><h1>but atleast i can do this</h1></header>
-<content>
-<p>LoL</p>
-<p>LoL</p>
-<p>LoL</p>
-<p>LoL</p>
-</content>
-<footer>By Etheras FireFox</footer>
+<footer>written by <a href="/users/Etheras.jsp">Etheras FireFox</a> at <time>15-05-2013</time></footer>
 </article>
 </div>
 

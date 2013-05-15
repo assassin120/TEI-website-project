@@ -10,7 +10,7 @@ body
    background-color: Black;
    
    /*proper positioning defaults*/
-   position: relative;
+   position: absolute;
    border: 0px;
    margin: 0;
    padding: 0;
@@ -36,20 +36,18 @@ header nav
 #container
 {
    position: absolute;
-   width: 100%;
-   margin: 2em 0;
+   left: 0;
+   right: 0;
+   width: 90%;
+   margin: 1.5em auto;
 }
 
 article
 {
    background-color: blue;
    margin: 1% 0;
-}
-
-h1,p
-{
-   padding: 0;
-   margin: 0;
+   box-shadow: 0px 0px 2px 2px black inset;
+   border-radius: 20px;
 }
 
 article header
@@ -90,7 +88,7 @@ header nav,footer nav
 /*Element Positioning*/
 .Left,.Center,.Right
 {
-   margin: 0% 1%;
+   padding: 0% 1%;
 }
 
 .Left
