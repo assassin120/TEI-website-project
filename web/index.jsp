@@ -30,14 +30,43 @@ License: GNU Public License v3 (http://www.gnu.org/licenses/gpl.html)
 </header>
 
 <div id="container">
-
+<article>
+<header><h1>Hello World!</h1></header>
+<content><p>This is the first article</p></content>
+<footer>By Etheras FireFox</footer>
+</article>
+<article>
+<header><h1>Blog post #2</h1></header>
+<content><p>updates on something important</p></content>
+<footer>By Etheras FireFox</footer>
+</article>
+<article>
+<header><h1>Running out of examples</h1></header>
+<content><p>does it show?</p></content>
+<footer>By Etheras FireFox</footer>
+</article>
+<article>
+<header><h1>Positioning examples</h1></header>
+<content><p>are not quite fun</p></content>
+<footer>By Etheras FireFox</footer>
+</article>
+<article>
+<header><h1>but atleast i can do this</h1></header>
+<content>
+<p>LoL</p>
+<p>LoL</p>
+<p>LoL</p>
+<p>LoL</p>
+</content>
+<footer>By Etheras FireFox</footer>
+</article>
 </div>
 
 <footer>
 <nav>
 <span class="Left">© under <a href="http://www.gnu.org/licenses/gpl.html">GPLv3</a></span>
 <span class="Center">Developed @ : <a href="https://github.com/Etheras/TEI-website-project" rel="author">GitHub</a></span>
-<span class="Right">From students of <a href="http://www.cs.teiath.gr/">Τμήμα Πληροφορικής Τ.Ε.Ι. Αθήνας</a></span>
+<span class="Right">From students of : <a href="http://www.cs.teiath.gr/">Τμήμα Πληροφορικής Τ.Ε.Ι. Αθήνας</a></span>
 </nav>
 </footer>
 

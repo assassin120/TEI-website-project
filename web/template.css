@@ -1,57 +1,114 @@
 body
 {
+   /*Template styles*/
    color: White;
-   text-shadow:1px 1px 2px Blue;
+   text-shadow: 2px 2px 2px Black;
    text-transform:capitalize;
    text-align: center;
    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   font-size: 100%;
    background-color: Black;
+   
+   /*proper positioning defaults*/
+   position: relative;
+   border: 0px;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
 }
+
+/*header menu styles*/
+header nav
+{
+   background-color: MidnightBlue;
+   position: absolute;
+   top: 0;
+}
+
+/*Main Page,Generic*/
+#container
+{
+   position: absolute;
+   width: 100%;
+   padding-bottom: 0.9em;
+}
+
+article
+{
+   background-color: transparent;
+}
+
+article header
+{
+;
+}
+
+article content
+{
+  text-align: left;
+}
+
+article footer
+{
+   text-align: right;
+}
+
 footer
 {
+   font-size: 0.6em;
+}
+
+/*footer menu styles*/
+footer nav
+{
+   background-color: Transparent;
+   position: fixed;
    bottom: 0;
 }
 
-header
+/*generic header and footer positioning*/
+header nav,footer nav
 {
-   top: 0;
+   width: 100%;
+}
+
+/*Element Positioning*/
+.Left,.Center,.Right
+{
+   margin: 0% 1%;
 }
 
 .Left
 {
-   position: absolute;
-   left: 0px;
+   float: left;
 }
 
 .Center
 {
-   
-   width: 50%;
+   float: center;
 }
 
 .Right
 {
-   position: absolute;
-   right: 0px;
+   float: right;
 }
 
-header,footer
-{
-   background-color: Navy;
-   height: 20px;
-   position: fixed;
-   width: 100%;
-   left: 0px;
-   right: 0px;
-}
-
+/*transitions,animations and flashy styles*/
 a
 {
    color: White;
-   text-decoration:none;
-   transition:all 1s ease-out;
+   text-decoration: none;
+   transition: all 0.5s ease-out;
 }
 a:hover
 {
-   color: red;
+   color: Turquoise;
+   font-size: 1.5em;
 }
