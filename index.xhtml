@@ -3,15 +3,18 @@
 License: GNU Public License v3 (http://www.gnu.org/licenses/gpl.html)
 -->
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
-<!-- manifest="TEIProject.appcache" --> <!--this needs to inside the HTML tag for offline storage, removed cause validators where complainng-->
+<!-- manifest="TEIProject.appcache" --> <!--this needs to inside the HTML tag for offline storage, removed cause validators where complaining-->
 <head>
 
 <title>Homepage of the Project</title>
 <!-- <base href="http://www.ThisWebsiteslink.com/" target="_blank" /> -->
-<link rel="stylesheet" type="text/css" href="Template.css" />
+<link rel="stylesheet" type="text/css" href="stylesheets/generic.css" />
+<link rel="stylesheet" type="text/css" href="stylesheets/index.css" />
 <meta name="description" content="A collaboration of students from our TEI to create an open source and expandable website" />
 <meta name="author" content="OpenSource @ https://github.com/Etheras/TEI-website-project" />
-<meta charset="UTF-8" />
+<meta charset="utf-8" />
+<script src="scripts/header.js"></script>
+<script src="scripts/footer.js"></script>
 
 </head>
 
@@ -19,11 +22,11 @@ License: GNU Public License v3 (http://www.gnu.org/licenses/gpl.html)
 
 <header>
 <nav>
-<span class="Left"><a href="index.jsp">Home</a></span>
-<span class="Center"><a href="thinktank.jsp" title="A place to present your ideas">Thinktank</a></span>
-<span class="Center"><a href="connect.jsp" title="Ilias, Connecting People">Connect</a></span>
-<span class="Center"><a href="clock.jsp" title="Tick Tock, Tick Tock">Clock</a></span>
-<span class="Right"><a href="about.jsp">About</a></span>
+<span class="Left"><a href="index.xhtml">Home</a></span>
+<span class="Center"><a href="thinktank.xhtml" title="A place to present your ideas">Thinktank</a></span>
+<span class="Center"><a href="connect.xhtml" title="Ilias, Connecting People">Connect</a></span>
+<span class="Center"><a href="clock.xhtml" title="Tick Tock, Tick Tock">Clock</a></span>
+<span class="Right"><a href="about.xhtml">About</a></span>
 </nav>
 </header>
 
@@ -31,7 +34,7 @@ License: GNU Public License v3 (http://www.gnu.org/licenses/gpl.html)
 <article>
 <header><h1>Hello World!</h1></header>
 <p>This is the first article</p>
-<footer>written by <a href="/users/Etheras.jsp">Etheras FireFox</a> at <time>2013-05-15</time></footer>
+<footer>written by <a href="/users/Etheras.xhtml">Etheras FireFox</a> at <time>2013-05-15</time></footer>
 </article>
 </div>
 
